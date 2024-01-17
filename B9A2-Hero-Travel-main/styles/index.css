@@ -71,6 +71,7 @@ body{
     border-radius: 8px;
     font-size: 15px;
     font-weight: 800;
+    border: none;
 }
 .class-one{
     width: 380px;
@@ -210,8 +211,125 @@ body{
     color: #5A5A5D;
     margin-left: 20px;
     margin-top: 20px;
+}
+.section-gap-a{
+    margin-top: 70px;
+    text-align: center;
+}
+.gap-a{
+    color: #131318;
+    font-size: 30px;
+    font-weight: 800px;
+}
+.gap-b{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+/*section five relates style*/
+.section-five{
+    background-image: url(../Images/Group\ 39.png);
+    width: 1170px;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    
 
 }
+.section-border-one{
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 389px;
+    border-radius: 8px;
+    margin-left: 500px;
+    
+    
+    
+}
+.logo-baba{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+    
+}
+.logo-one{
+    display: flex;
+    gap: 5px;
+}
+.logo-two{
+    display: flex;
+    gap: 5px;
+}
+.logo-three{
+    display: flex;
+    gap: 5px;
+}
+
+.text-baba{
+    margin-left: 30px;
+
+}
+.price-list-textbaba{
+    color: #FF5400; 
+    font-size: 20px;
+
+}
+.text-baba-btn{
+    width: 150px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    font-size: 20px;
+    color: white;
+}
+/* section five close*/
+/*section six start*/
+.section-six{
+    background-image: url(../Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.full-border{
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 389px;
+    border-radius: 8px;
+    margin-left: 60px;
+    margin-top: 5px;
+  
+}
+.logo-dada{
+    display: flex;
+    justify-content: space-around;
+}
+.logo-four{
+    display: flex;
+
+}
+.logo-five{
+    display: flex;
+}
+.logo-six{
+    display: flex;
+}
+
+
 
     
 
