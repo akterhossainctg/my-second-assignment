@@ -12,6 +12,7 @@ body{
 .parents{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     
 }
 .nav-logo{
@@ -35,6 +36,61 @@ body{
     color: #FF5400;
 }
 /*section one start*/
+.container{
+    background-image: url('../Images/group\ 13.png');
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+
+}
+.border-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.input-a{
+    width: 174px;
+    height: 52px;
+
+}
+.input-b{
+    width: 174px;
+    height: 52px;
+}
+.input-c{
+    width: 174px;
+    height: 52px;
+
+}
+.input-d{
+    width: 174px;
+    height: 52px;
+
+}
+.div-one{
+    align-items: center;
+    padding-top: 40px;
+}
+.first-text{
+    font-size: 40px;
+    color: #FFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+
+}
+.first-description{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
 .section-two{
     display: flex;
     margin-top: 30px;
@@ -43,17 +99,6 @@ body{
 }
 .text-div{
     margin-right: 30px;
-}
-.div-one{
-    background-image: url('../Images/group\ 13.png');
-    width: 1170px;
-    height: 500px;
-    margin: 0 auto;
-    border-radius: 10px;
-}
-.banner-item{
-    text-align: center;
-    
 }
 .banner-heading{
     color: #FFF;
@@ -328,9 +373,144 @@ body{
 .logo-six{
     display: flex;
 }
+/*section nine styles*/
+.section-nine{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 180px;
+    gap: 50px;
+}
 
-
-
+.text-container-a{
+    margin-top: 60px;
+    margin-left: 160px;
     
+}
+.text-heading-a{
+    width: 400px; 
+    color: #131318;
+    font-weight: 800;
+}  
+.img-ab{
+    background-image: url(../Images/Group\ 40089.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 350px;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.in-img-text{
+    color: #FFF;
+    text-align: center;
+    margin-top: 130px;
+    font-weight: 700px;
+}
+/*section ten start*/
+.section-ten{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 50px;
+    gap: 210px;
+}
+.main-last{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 500px;
+    height: 350px;
+}
+.head-ab{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 20px;
+}
+.one-colour-item-a{
+    color: #5A5A5D;
+    margin-left: 20px;
+}
+.name-form{
+    width: 330px;
+    height: 30px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-left: 20px;
+}
+.email-form{
+    width: 330px;
+    height: 30px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-left: 20px;
+}
+.su-btn{
+    width: 330px;
+    height: 30px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    margin-left: 20px;
+    color: #FFF;
+}
+.last-img{
+    background-image: url(../Images/Rectangle\ 8\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 350px;
+    border-radius: 16px;
+    border-right: 30px;
+}
+.travel-site{
+    background-color: #FF5400;
+    width: 180px;
+    height: 80px;
+    text-align: center;
+    color: white;
+    margin-left: 200px;
+    margin-top: 150px;
+    transform: rotate(-19.628deg);
+    border-radius: 8px;
+    align-items: center;
+}
+.website{
+    font-weight: 400;
+    font-style: normal;
+}
+.Discount{
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+    /*footer part styles*/
+    .footer {
+        background-color: rgb(243, 243, 243);
+        display: flex;
+        justify-content: center;
+      }
+      .logo{
+        display: flex;
 
+      }
+      .common-heading{
+        font-style: normal;
+        font-weight: 800;
+      }
+      .footer-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 60%;
+        text-align: center;
+        padding: 150px 0;
+      }
+      .footer-logo {
+        display: flex;
+        gap: 20px;}
 
