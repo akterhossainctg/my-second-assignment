@@ -1,3 +1,233 @@
-@media screen and (max-width: 600px) {
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .parents{
+        flex-direction: column;
+    }
+    .container-section{
+        height: 350px;
+    }
+    .div-one{
+        padding: 20px;
+    }
+    .first-text{
+        font-size: 20px;
+    }
+    .first-description {
+        font-size: 8px;
+    }
+    .input-a{
+        width: 140px;
+        height: 40px;
+    }
+    .input-b{
+        width: 140px;
+        height: 40px;
+    }
     
+    .dog-names{
+        margin-left: 30px;
+        width: 140px;
+        height: 40px;
+    }
+    .input-d{
+        margin-left: 30px;
+        width: 140px;
+        height: 40px;
+    }
+    .border-one {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* section two start*/
+    .section-two{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .text-div{
+        padding: 30px;
+    }
+    .banner-image{
+        width: 300px;
+        height: 300px;
+        align-items: center;
+    }
+    .section-gap{
+        margin-top: 10px;
+        padding: 20;
+    }
+    /* section three*/
+    .first-img-line {
+        flex-direction: column;
+        height: 300px;
+        width: 300px;
+
+       }
+    .sec-img-line{
+        flex-direction: column;
+        width: 300px;
+        margin-top: 30px;
+    }
+    .third-img-line{
+        flex-direction: column;
+        width: 300px;
+    }
+    .section-container{
+        flex-direction: column;
+    }
+    .container-one{
+        width: 350px;
+    }
+    .container-two{
+        width: 350px;
+    }
+    .section-gap-a{
+        padding: 15px 15px;
+    }
+    .all-images{
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+    }
+    /*section five*/
+    .section-five{
+        width: 350px;
+        height: 230px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-six{
+        width: 350px;
+        height: 230px;
+        background-repeat: no-repeat;
+        margin-top: 130px;
+
+    }
+    .full-border{
+        width: 320px;
+        height: 250px;
+        margin-left: 10px;
+        text-align: center;
+       
+    }
+    .section-border-one{
+        width: 320px;
+        height: 250px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .price-list-textbaba{
+        font-size: 16px;
+    }
+
+    .text-baba{
+        font-size: 14px;
+        margin-left: 10px;
+}
+.class-one{
+    font-size: 20px;
+}
+.font-text{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+.text-description{
+    font-size: 12px;
+}
+.section-new-not-old{
+    margin-top: 60px;
+    text-align: center;
+    align-items: center;
+}
+.section-container{
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-nine{
+    flex-direction: column;
+    margin-top: 40px;
+    
+}
+.img-ab{
+    width: 80%;
+    margin-left: 0px;
+    font-size: 20px;
+    border-radius: 8px;
+   
+    
+}
+.text-container-a{
+    margin-top: 60px;
+    margin-left: 0px;
+    width: 80%;
+
+}
+.section-ten{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    gap: 0px;
+
+}
+.main-last{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 300px;
+    height: 230px;
+}
+
+.name-form{
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-left: 0px;
+}
+.email-form{
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-left: 0px;
+}
+.last-img{
+
+    width: 350px;
+    height: 250px;
+    border-radius: 16px;
+    border-right: 30px;
+    margin-top: 150px;
+}
+.su-btn{
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+}
+.travel-site{
+    background-color: #FF5400;
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    color: white;
+    margin-left: 200px;
+    margin-top: 150px;
+    transform: rotate(-19.628deg);
+    border-radius: 8px;
+    align-items: center;
+}
 }
