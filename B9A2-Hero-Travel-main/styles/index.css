@@ -37,8 +37,9 @@ body{
 }
 /*section one start*/
 .container{
-    background-image: url('../Images/group\ 13.png');
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/group\ 13.png');
     background-repeat: no-repeat;
+    border-radius: 16px;
     width: 80%;
     height: 500px;
     margin: 0 auto;
@@ -50,26 +51,42 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
    
    
 }
 .input-a{
     width: 174px;
     height: 52px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
 
 }
 .input-b{
     width: 174px;
     height: 52px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
 }
-.input-c{
+.dog-names{
     width: 174px;
     height: 52px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 10px;
+    
 
 }
 .input-d{
     width: 174px;
     height: 52px;
+    border-radius: 8px;
+    background-color: #FF5400;
+    border: none;
+    text-align: center;
+    color: white;
 
 }
 .div-one{
@@ -143,7 +160,7 @@ body{
     margin-top: 100px;
 }
 .text-description{
-    color: color: rgba(19, 19, 24, 0.70);
+    color:rgba(19, 19, 24, 0.70);
     font-size: 16px;
     text-align: center;
     
